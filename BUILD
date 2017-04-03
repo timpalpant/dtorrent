@@ -8,6 +8,7 @@ cc_binary(
         '-lrt',
         '-lssl',
     ],
+    visibility=["//visibility:public"],
 )
 
 genrule(
